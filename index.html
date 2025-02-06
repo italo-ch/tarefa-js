@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Italo Chiaradia</title>
     <link rel="stylesheet" href="/styles/main.css">
+    <script src="/app.js" defer></script>
 </head>
 <body>
     <header class="header">
@@ -109,14 +110,26 @@
         </section>
         <section class="feedback">
             <div class="container">
-                <h2 class="subtitle">Feedbacks: </h2>
-                <form>
-                    <input name="name" type="text" placeholder="Digite seu nome aqui!" class="input">
-                    <textarea name="feedback" placeholder="Dê um feedback para esse desenvolvedor!" class="input"></textarea>
-                    <input type="submit" value="Enviar" class="button">
-                </form>
+                <div>
+                    <h2 class="subtitle">Feedbacks: </h2>
+                    <form>
+                        <input name="name" type="text" placeholder="Digite seu nome aqui!" class="input" required>
+                        <textarea name="feedback" placeholder="Dê um feedback para esse desenvolvedor!" class="input" required></textarea>
+                        <input type="submit" value="Enviar" class="button">
+                    </form>
+                </div>
+                <div class="last-feedbacks first-feedback">
+                    <div class="feedback-card">
+                        <span class="name">João da Silva</span>
+                        <p class="comment">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum minima tempora labore reiciendis vero nam libero quis ipsa! Excepturi fuga libero quidem reprehenderit, maxime et distinctio omnis quasi necessitatibus mollitia.
+                        </p>
+                    </div>
+                    
+                </div>
             </div>
         </section>
+
     </main>
     <footer class="footer">
         <div class="footer-container container">
