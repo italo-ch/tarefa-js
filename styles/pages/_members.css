@@ -1,0 +1,83 @@
+/* About */
+.about {
+    width: 100%;
+    background-color: var(--color-slate-200);
+}
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.3rem;
+}
+.profile-img {
+    width: 24.7rem;
+    height: 24.7rem;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.description p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+@media (min-width: 768px) {
+    .about-container {
+        flex-direction: row;
+        padding-block: 3.5rem;
+        gap: 12.5rem;
+    }
+}
+
+/* Listings */
+.listings {
+    width: 100%;
+}
+.listings-container {
+    padding-block: 2rem;
+}
+.hobbies-container, .films-container {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (min-width: 1024px) {
+    .listings > .container {
+        display: flex;
+        gap: 3.2rem;
+        padding-block: 3.5rem;
+        justify-content: center;
+    }
+    .listings-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .hobbies-listings-container {
+        align-items: end;
+    }
+    .hobbies-container {
+        flex-direction: row-reverse;
+        justify-content: end;
+    }
+    .films-container {
+        justify-content: start;
+    }
+}
+
+/* Feedback */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+@media (min-width: 768px) {
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1.6rem;
+    }
+}
