@@ -26,6 +26,7 @@ feedback irão desaparecer.
 3. Abra no navegador
 
 ## Acesso ao projeto
+- [https://tarefa-js.netlify.app/](https://tarefa-js.netlify.app/)
 
 ## Autores
 
