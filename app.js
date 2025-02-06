@@ -37,7 +37,9 @@ function handleCreateFeedback(event) {
     const p = document.createElement('p');
 
     div.classList.add('feedback-card');
-    
+    span.classList.add('name');
+    p.classlist.add('comment');
+
     span.textContent = name;
     p.textContent = comment;
 
