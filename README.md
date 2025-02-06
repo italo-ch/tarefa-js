@@ -1,5 +1,7 @@
 # Tarefa JS | IN Junior 🐺
 
+![App Screenshot](/screenshot.png)
+
 A tarefa consiste no desenvolvimento da interatividade da seção de Feedback da Página individual, criada na tarefa de CSS.
 
 ## Requisitos da tarefa:
